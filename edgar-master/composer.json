@@ -1,0 +1,32 @@
+{
+    "name": "jamesskinner12/edgar",
+    "type": "library",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/JamesSkinner12/Schematics"
+      },
+      {
+        "type": "vcs",
+        "url": "https://github.com/JamesSkinner12/php-simple-html-dom-parser"
+      }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/serializer": "^4.2",
+        "jamesskinner12/php-simple-html-dom-parser": "dev-master",
+        "jamesskinner12/schematics": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "James",
+            "email": "jameswskinner12@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Edgar\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+}
